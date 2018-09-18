@@ -41,6 +41,11 @@ Assumptions -
 4. Only 4 functions are allowed at present (+,-,*,/)
 5. The JDK version used for the program is 1.8
 6. For * operation to work in shell env, pass the operation as ' * ' or " * " as shell will perform file name expansion if you pass * directly.
+7. Divide by zero returns Infinity. This can be handled in Divide.java if the requirement ask for a proper error message.
 
+		if ( rightOperand == 0 ) {
+			System.out.println("You can't divide by zero");
+			System.exit(0);
+		}
 
 	
