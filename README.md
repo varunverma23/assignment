@@ -1,4 +1,4 @@
-<b>Calculator</b>
+<h1>Calculator</h1>
 
 About the Project
 
@@ -40,5 +40,7 @@ Assumptions -
 3. The program check the operand against regex [0-9]+[.]?[0-9]* 
 4. Only 4 functions are allowed at present (+,-,*,/)
 5. The JDK version used for the program is 1.8
+6. For * operation to work in shell env, pass the operation as ' * ' or " * " as shell will perform file name expansion if you pass * directly.
+
 
 	
